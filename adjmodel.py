@@ -9,18 +9,17 @@ import plottingFunctions
 from pylab import *
 
 #############################################################################################
-### Adjustable range model: 															  ###
-###						Collective motion model in 2d, with periodic boundary conditions. ###
-###						Each agent co-aligns with agents in its interacting group. 	 	  ###
-###						The interacting groups is an ordered list containing n members	  ###
-###						each at successive distances from the agent. 					  ###
-###						With the closest member at a topological distance alpha. 		  ###
-###																						  ###
-###						Here:	 n = numNayHigh - numNayLow								  ###
-###						 	 alpha = numNayLow											  ###
-###																						  ###
-###																						  ###
-###																	Arthur King 9/9/19    ###
+### Adjustable range model:                                                               ###
+###                     Collective motion model in 2d, with periodic boundary conditions. ###
+###                     Each agent co-aligns with agents in its interacting group         ###
+###                     The interacting groups is an ordered list containing n members    ###
+###                     each at successive distances from the agent.                      ###
+###                     With the closest member at a topological distance alpha.          ###
+###                                                                                       ###
+###                     Here:	 n = numNayHigh - numNayLow                               ###
+###                          alpha = numNayLow                                            ###
+###                                                                                       ###
+###                                                                 Arthur King 9/9/19    ###
 #############################################################################################
 
 
